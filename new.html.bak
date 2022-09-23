@@ -1,0 +1,31 @@
+<!doctype>
+<html>
+<head>
+<title>link</title>
+<link-rel ="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="gradient-style">
+
+</div>
+ 
+ <div id="section 1">
+<h1>Bangladesh</h1>
+</div>
+
+    <div id+"section 2">
+<h2>India</h2>
+</div>
+   
+   <div id="section 3">
+<p>The Lorem ipsum text is derived from sections 1.10.32 and 1.10.33 of Cicero's 'De finibus bonorum et malorum.</p>
+</div>
+</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+<style>
+h1:hover{
+    color:rgb(49, 160, 49);
+}
+input:focus{
+    background-color:red;
+}
+p::first-letter {
+    color:brown;
+    font-size: 10rem;
+}
+.before::before, .before::after{
+    content:"none";
+    height:20px;
+    width:100%;
+    background-color:orange;
+    display: inline-block;
+}
+</style>
+
+</head>
+
+<body>
+    <h1>This is a paragraph</h1>
+    <input type="text"placeholder="enter your name"> </input><br><br>
+<div class="before">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+</body>
+</html>
