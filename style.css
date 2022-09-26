@@ -1,0 +1,150 @@
+.{
+    margin:0;
+    padding:o;
+}
+body{
+    background-color:lightgoldenrodyellow;
+    font-family:Sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:darkseagreen;
+    margin:o auto;
+    padding:20px;
+
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+.profile{
+    height:120px;
+    width:100px;
+    border:3px solid,grey;
+    border-radius: 50%;
+    float:left;
+}
+h1,h2,h3,h4,h4,h5,h6{
+    color:teal;
+}
+.header-contact{
+    float:right;
+    padding:20px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight:bold;
+    color:teal;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    border:solid black 3px;
+    width:100%;
+    margin:20px auto;
+    border-bottom: none;
+
+}
+
+
+/*------------
+personal section start
+ -----------------*/
+.container{
+    padding:30px;
+}
+.left-div{
+    float:left;
+    width:30%;
+
+}
+.right-div{
+    float:right;
+    width:70%;
+}
+.common-hr{
+    border:solid black 2px;
+    width:100%;
+    margin:20px auto;
+    border-bottom: none;
+}
+/*------------
+personal section end
+ -----------------*/
+
+/*------------
+work experiemce section start
+ -----------------*/
+.container{
+    padding:30px;
+}
+.left-div{
+    float:left;
+    width:30%;
+
+}
+.right-div{
+    float:right;
+    width:70%;
+}
+.common-hr{
+    border:solid black 2px;
+    width:100%;
+    margin:20px auto;
+    border-bottom: none;
+}
+/*------------
+work experience section end
+ -----------------*/
+
+/*------------
+education section start
+ -----------------*/
+.left-div{
+    float:left;
+    width:30%;
+
+}
+.left-edu{
+    float:left;
+    width:45%;
+.right-edu{
+    float:right;
+    width:45%;
+}
+.common-hr{
+    border:solid black 2px;
+    width:100%;
+    margin:20px auto;
+    border-bottom: none;
+}
+/*------------
+education section end
+ -----------------*/
+/*------------
+footer section start
+ -----------------*/
+.bottom-container{
+    background-color:black;
+    text-align:center;
+    padding:10px;
+}
+
+.bottom-container a{
+    color:white;
+    text-decoration: none;
+    margin:20px;
+}
+
+
+
+
+
+/*------------
+footer section end
+ -----------------*/
