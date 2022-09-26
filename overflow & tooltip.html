@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow & tooltip</title>
+<style>
+div{
+  height:100px;
+  width:200px;
+  background-color:teal;
+  color:white;
+  position:relative;
+  left:30px;
+  border:2px solid orange;
+  padding:5px;
+  overflow:scroll;
+
+}
+.tooltip-text{
+  background-color:palevioletred;
+  width:150px;
+  color:gainsboro;
+  position:absolute;
+  top:160px;
+  left:30px;
+  border-radius:5px;
+  padding:5px;
+  visibility:hidden;
+}
+.tooltip:hover .tooltip-text{
+  visibility:visible;
+}
+  </style>
+</head>
+<body>
+<div>
+      nThe Lorem ipsum text is derived from sections 1.10.32 and 1.10.33 of Cicero's 'De finibus bonorum et malorum'.[7][8] The physical source may have been the 1914 Loeb Classical Library edition of De finibus, where the Latin text, presented on the left-hand (even) pages, breaks off on page 34 with "Neque porro quisquam est qui do-" and continues on page 36 with "lorem ipsum ...", suggesting that the galley type of that page was mixed up to make the dummy text seen today.[1]
+
+The discovery of the text's origin is attributed to Richard McClintock, a Latin scholar at Hampden–Sydney College. McClintock connected Lorem ipsum to Cicero's writing sometime before 1982 while searching for instances of the Latin word consectetur, which was rarely used in classical literature.[2] McClintock first published his discovery in a 1994 letter to the editor of Before & After magazine, contesting the editor's earlier claim that Lorem ipsum held no meaning.[2]
+
+The relevant section of Cicero as printed in the source is reproduced below with fragments used .The Lorem ipsum text is derived from sections 1.10.32 and 1.10.33 of Cicero's 'De finibus bonorum et malorum'.[7][8] The physical source may have been the 1914 Loeb Classical Library edition of De finibus, where the Latin text, presented on the left-hand (even) pages, breaks off on page 34 with "Neque porro quisquam est qui do-" and continues on page 36 with "lorem ipsum ...", suggesting that the galley type of that page was mixed up to make the dummy text seen today.[1]
+
+The discovery of the text's origin is attributed to Richard McClintock, a Latin scholar at Hampden–Sydney College. McClintock connected Lorem ipsum to Cicero's writing sometime before 1982 while searching for instances of the Latin word consectetur, which was rarely used in classical literature.[2] McClintock first published his discovery in a 1994 letter to the editor of Before & After magazine, contesting the editor's earlier claim that Lorem ipsum held no meaning.[2]
+
+The relevant section of Cicero as printed in the source is reproduced below with fragments used ii Lorem ipsum highlighted. Letters in brackets were added to Lorem ipsum and were not present in the source text:
+  </div>
+<br>
+
+<a href class="tooltip">
+facebook
+
+<span class="tooltip-text">Facebook is a social media</span>
+</a>
+</body>
+</html>
