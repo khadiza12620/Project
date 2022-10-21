@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a96fd84a-f9fb-440a-9f92-f85c44714077" name="Changes" comment="overflow &amp; tooltip">
-      <change afterPath="$PROJECT_DIR$/grid and layout.html" afterDir="false" />
+    <list default="true" id="a96fd84a-f9fb-440a-9f92-f85c44714077" name="Changes" comment="layout">
+      <change afterPath="$PROJECT_DIR$/grid view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,10 @@
       <workItem from="1664196369401" duration="13497000" />
       <workItem from="1664464337539" duration="1581000" />
       <workItem from="1664509203634" duration="603000" />
-      <workItem from="1665493913330" duration="8157000" />
+      <workItem from="1665493913330" duration="12737000" />
+      <workItem from="1665671850068" duration="718000" />
+      <workItem from="1666327570392" duration="8433000" />
+      <workItem from="1666342324988" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1663947988311</created>
@@ -139,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664209604540</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="grid &amp;layout">
+      <created>1665503520604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665503520604</updated>
+    </task>
+    <task id="LOCAL-00011" summary="grid &amp;layout">
+      <created>1665503668096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665503668096</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +189,7 @@
     <MESSAGE value="CV project" />
     <MESSAGE value="static,fixed position" />
     <MESSAGE value="overflow &amp; tooltip" />
-    <option name="LAST_COMMIT_MESSAGE" value="overflow &amp; tooltip" />
+    <MESSAGE value="grid &amp;layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="grid &amp;layout" />
   </component>
 </project>
